@@ -1,6 +1,7 @@
-console.log('Number method started!!!');
-
-const b='ss'
-const type =typeof(b);
-
-console.log(type,'type');
+let mynumber =2;
+let text ="";
+while(mynumber == Infinity){
+    mynumber= mynumber * mynumber;
+    text =text+mynumber;
+}
+console.log(text);
